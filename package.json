@@ -1,0 +1,21 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome devlopment environment",
+  "repository": "https://github.com/RoyalOttoc/supergulp.git",
+  "author": "RoyalOttoc <53434429+RoyalOttoc@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
